@@ -1,6 +1,6 @@
 name: split_icon
 description: A command package that dynamically loads the flutter-icons font file
-version: 0.5.1
+version: 0.5.2
 homepage: https://github.com/ThinkBIG-Company/split_icons.git
 author: flutter-studio<2534290808@qq.com>
 
@@ -8,13 +8,13 @@ environment:
   sdk: '>=2.4.0 <3.0.0'
 
 dependencies: 
-  yaml: ^2.2.0
-  path: ^1.6.0
-  io: ^0.3.4
+  yaml: ^3.1.0
+  path: ^1.8.0
+  io: ^1.0.0
 
 dev_dependencies:
-  pedantic: ^1.7.0
-  test: ^1.5.0
+  pedantic: ^1.11.0
+  test: ^1.17.3
 
 executables:
   split_icon:
