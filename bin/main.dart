@@ -26,7 +26,8 @@ void main(List<String> arguments) {
       flutterIconPath = lines[i]
           .replaceAll("flutter_icons:file://${Platform.isWindows?'/':''}", '')
           .replaceAll('/lib/', '');
-      flutterIconVersion = flutterIconPath.substring(flutterIconPath.lastIndexOf('-'));
+      //flutterIconVersion = flutterIconPath.substring(flutterIconPath.lastIndexOf('-'));
+      flutterIconVersion = '';
       break;
     }
   }
