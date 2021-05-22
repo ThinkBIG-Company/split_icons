@@ -1,3 +1,7 @@
+## 0.6.0
+
+- Make it working again
+
 ## 0.3.1+1
 
 - fix some bugs

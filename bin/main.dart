@@ -96,6 +96,12 @@ const String allFonts = '''
       - family: AntDesign
         fonts:
           - asset: fonts/AntDesign.ttf
+      - family: AntDesign-Filled
+        fonts:
+          - asset: fonts/AntDesign-Filled.ttf
+      - family: AntDesign-Outlined
+        fonts:
+          - asset: fonts/AntDesign-Outlined.ttf
       - family: Brandico
         fonts:
           - asset: fonts/Brandico.ttf
@@ -114,12 +120,12 @@ const String allFonts = '''
       - family: FontAwesome
         fonts:
           - asset: fonts/FontAwesome.ttf
-      - family: FontAwesome5
-        fonts:
-          - asset: fonts/FontAwesome5_Regular.ttf
       - family: FontAwesome5_Brands
         fonts:
           - asset: fonts/FontAwesome5_Brands.ttf
+      - family: FontAwesome5
+        fonts:
+          - asset: fonts/FontAwesome5_Regular.ttf
       - family: FontAwesome5_Solid
         fonts:
           - asset: fonts/FontAwesome5_Solid.ttf
@@ -132,6 +138,9 @@ const String allFonts = '''
       - family: Foundation
         fonts:
           - asset: fonts/Foundation.ttf
+      - family: Iconic
+        fonts:
+          - asset: fonts/Iconic.ttf
       - family: Ionicons
         fonts:
           - asset: fonts/Ionicons.ttf
@@ -165,40 +174,85 @@ const String allFonts = '''
       - family: Meteocons
         fonts:
           - asset: fonts/Meteocons.ttf
-      - family: mfg_labs_iconsetregular
+      - family: MfgLabs
         fonts:
-          - asset: fonts/MFGLabsiconset.ttf
+          - asset: fonts/MfgLabs.ttf
+      - family: ModernPictograms
+        fonts:
+          - asset: fonts/ModernPictograms.ttf
       - family: Octicons
         fonts:
           - asset: fonts/Octicons.ttf
+      - family: RpgAwesome
+        fonts:
+          - asset: fonts/RpgAwesome.ttf
       - family: SimpleLineIcons
         fonts:
           - asset: fonts/SimpleLineIcons.ttf
+      - family: Typicons
+        fonts:
+          - asset: fonts/Typicons.ttf
       - family: WeatherIcons
         fonts:
-          - asset: fonts/weathericons.ttf
+          - asset: fonts/WeatherIcons.ttf
+      - family: WebSymbols
+        fonts:
+          - asset: fonts/WebSymbols.ttf
       - family: Zocial
         fonts:
           - asset: fonts/Zocial.ttf
 ''';
-//Ant Design Icons -> ant,
-//Entypo Icons -> ent,
-//Evil Icons -> evi,
-//Feather Icons -> fea,
-//Font Awesome Icons -> faw,
-//Foundation Icons -> fou,
-//Ionicons Icons -> ion,
-//Material Community Icons -> mco,
-//Material Icons -> mdi,
-//Octicons Icons -> oct,
-//Simple Line Icons -> sli,
-//Zocial Icons -> zoc,
+//Ant Design Icons -> ant
+//Ant Design v4+ Filled Icons -> adf
+//Ant Design v4+ Outlined Icons -> ado
+//Brandico Icons -> bdo
+//Elusive Icons -> elu
+//Entypo Icons -> ent
+//Evil Icons -> evi
+//Feather Icons -> fea
+//Font Awesome Icons -> fa
+//Font Awesome 5 Brands -> fab
+//Font Awesome 5 Regular -> far
+//Font Awesome 5 Solid -> fas
+//Fontelico Icons -> fon
+//Fontisto Icons -> fto
+//Foundation Icons -> fou
+//Iconic Icons -> ico
+//Ionicons Icons -> ion
+//Linearicons Icons -> lin
+//Linecons Icons -> lco
+//Maki Icons -> mak
+//Material Community Icons -> mco
+//Material Icons Baseline -> mib
+//Material Icons Outline -> mio
+//Material Icons Round -> mir
+//Material Icons Sharp -> mis
+//Material Icons TwoTone **Not available at this moment**
+//Meteocons Icons -> met
+//MfgLabs Icons -> mfg
+//ModernPictograms -> mod
+//Octicons Icons -> oct
+//RpgAwesome -> rpg
+//Simple Line Icons -> sli
+//Typicons -> typ
 //Weather Icons -> wea
+//WebSymbols Icons -> web
+//Zocial Icons -> zoc
 Map<String, String> fontsMap = {
   'ant': '''
       - family: AntDesign
         fonts:
           - asset: fonts/AntDesign.ttf
+''',
+  'adf': '''
+      - family: AntDesign-Filled
+        fonts:
+          - asset: fonts/AntDesign-Filled.ttf
+''',
+  'ado': '''
+      - family: AntDesign-Outlined
+        fonts:
+          - asset: fonts/AntDesign-Outlined.ttf
 ''',
   'bdo': '''
       - family: Brandico
@@ -230,15 +284,15 @@ Map<String, String> fontsMap = {
         fonts:
           - asset: fonts/FontAwesome.ttf
 ''',
-  'far': '''
-      - family: FontAwesome5
-        fonts:
-          - asset: fonts/FontAwesome5_Regular.ttf
-''',
   'fab': '''
       - family: FontAwesome5_Brands
         fonts:
           - asset: fonts/FontAwesome5_Brands.ttf
+''',
+  'far': '''
+      - family: FontAwesome5
+        fonts:
+          - asset: fonts/FontAwesome5_Regular.ttf
 ''',
   'fas': '''
       - family: FontAwesome5_Solid
@@ -259,6 +313,11 @@ Map<String, String> fontsMap = {
       - family: Foundation
         fonts:
           - asset: fonts/Foundation.ttf
+''',
+  'ico': '''
+      - family: Iconic
+        fonts:
+          - asset: fonts/Iconic.ttf
 ''',
   'ion': '''
       - family: Ionicons
@@ -320,20 +379,40 @@ Map<String, String> fontsMap = {
         fonts:
           - asset: fonts/MFGLabsiconset.ttf
 ''',
+  'mod': '''
+      - family: ModernPictograms
+        fonts:
+          - asset: fonts/ModernPictograms.ttf
+''',
   'oct': '''
       - family: Octicons
         fonts:
           - asset: fonts/Octicons.ttf
+''',
+  'rpg': '''
+      - family: RpgAwesome
+        fonts:
+          - asset: fonts/RpgAwesome.ttf
 ''',
   'sli': '''
       - family: SimpleLineIcons
         fonts:
           - asset: fonts/SimpleLineIcons.ttf
 ''',
+  'typ': '''
+      - family: Typicons
+        fonts:
+          - asset: fonts/Typicons.ttf
+''',
   'wea': '''
       - family: WeatherIcons
         fonts:
           - asset: fonts/weathericons.ttf
+''',
+  'web': '''
+      - family: WebSymbols
+        fonts:
+          - asset: fonts/WebSymbols.ttf
 ''',
   'zoc': '''
       - family: Zocial
